@@ -1,0 +1,48 @@
+POST http://localhost:8080/login
+Content-Type: application/json
+
+{
+    "username": "ttt",
+    "password": "ttt"
+}
+
+###
+PUT http://localhost:8080/signup
+Content-Type: application/json
+
+{
+    "username": "username3",
+    "password": "password3"
+   
+}
+
+
+###
+PUT http://localhost:8080/signup
+Content-Type: application/json
+
+{
+    "username": "username1",
+    "password": "password1"
+   
+}
+
+
+###
+POST http://localhost:8080/flashcards
+Authorization:phz6gyw7p1h
+Content-Type: application/json
+
+{
+    "question": "question5",
+    "answer": "answer5",
+    "username" : "ttt",
+    "createDate":  1628389372
+}
+
+###
+GET http://localhost:8080/flashcards?username=ttt
+Authorization:bxq6wav71wc
+
+
+
